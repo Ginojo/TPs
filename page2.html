@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Parall. page-2</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, 
+  maximum-scale=1">      
+    <link rel="stylesheet" href="./style.css">
+
+<style>
+  `
+ .button { 
+    background-color:#4caf50;
+    border: none;
+    color: white;
+    padding: 35px 62px;
+    text-align:center;    
+    text-decoration:none;
+    display: block;
+    font-size:16px;    
+    margin: 4px 2px;
+    cursor: pointer;
+    } 
+ .button1 { 
+    background-color:#4caf50; 
+     padding: 35px 62px;
+    color: #000000;;
+    text-decoration:none;     
+     border: 5px solid blue;
+    } 
+    
+.headertop-0   {
+    position: fixed;
+    top: ;
+    height: 75px;
+    z-index: 1;
+    width: 100%; 
+    background:blue; 
+    width:   vw; 
+    margin: auto;
+    padding:12px 33px;    
+    } 
+    
+.headerTop {
+  position: fixed;
+  top: 3;
+  z-index: 1;
+  width: 100%;
+  margin: auto;    
+  background-color: #f1f1f1;
+}
+
+.header h2 {
+  text-align: center;
+}
+
+.progress-container {
+  width: 100%;
+  height: 28px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 28px;
+  background: #4caf50;
+  width: 0%;
+}
+    
+    
+</style>
+</head>
+
+ 
+    
+<body>     
+    <div> 
+    <div class="headertop-0" style="background:blue; width: 100vw; 
+    margin: auto;padding: 12px 333px"> vdvvxcvcvcx
+        
+    </div>    
+    
+    <div class="headerTop" style="width: 100vw; margin: 50 50;"> 
+    <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+    </div>  
+    </div>
+        
+        
+<p class="headerTop" 
+style="background:rgba(233,233,233, 0.6); width: 100vw; margin: auto;">page1   page2   page3 </p>  </div> 
+
+
+<div class="content">     
+    <!-- header image BG -->
+    <header class="bg-dada2 flex items-center 
+    justify-center h-screen pb-12">
+    <div class="bg-white font-serif mx-4 p-4 text-center md:p-8">
+    <p class="italic text-sm">Section 1 </p>
+    <h1 class="text-3xl uppercase"> Pagina 2</h1>        
+    <p class="text-lg">sub title</p>
+    </div>
+    </header>
+    <!-- div txt-1 FG -->    
+    <div class="font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
+    <p class="mb-4 text-xl md:text-1.5xl uppercase">Quae commodi reiciendis dignissimos. Rerum molestiae hic dolores assumenda dolor! Corrupti reiciendis maxime fuga, recusandae obcaecati officia cum temporibus dicta quibusdam praesentium, magni, cumque aperiam iusto sequi illum molestiae non.</p>
+      
+    </div>
+
+   
+    <!-- quote image BG-->   
+    <div class="bg-dada  flex items-center 
+    justify-center h-screen pb-12">
+    <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
+    <p class="font-bold italic text-3xl">
+    &ldquo;Lekke baden op het stran.&rdquo;
+    </p>
+    </blockquote>
+    </div>
+    <!-- div txt-2 FG -->  
+    <div class="font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
+        <p class="mb-4 text-lg">Quae commodi reiciendis dignissimos. Rerum molestiae hic dolores assumenda dolor! Corrupti reiciendis maxime fuga, recusandae obcaecati officia cum temporibus dicta quibusdam praesentium, magni, cumque aperiam iusto sequi illum molestiae non.</p>
+        <p>In excepturi repellendus eum, qui corrupti rerum perferendis harum adipisci voluptate? Nihil, quidem deleniti libero officia dicta vel asperiores velit molestiae blanditiis, dolore voluptatibus excepturi laudantium at veniam illo. Dolor!</p>
+        <br><br> 
+        <a href="index.html" class="button1"> Link</a>
+ 
+ 
+    </div>
+    
+    
+        <!-- quote image BG-->   
+    <div class="bg-dada1 flex items-center justify-center h-screen pb-12">
+    <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
+    <p class="font-bold italic text-3xl">
+    &ldquo;Amai Iek do da nie grag !.&rdquo;
+    </p>
+    </blockquote>
+    </div>
+    <!-- div txt-2 FG -->  
+    <div class="font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
+        <p class="mb-4 text-lg">Quae commodi reiciendis dignissimos. Rerum molestiae hic dolores assumenda dolor! Corrupti reiciendis maxime fuga, recusandae obcaecati officia cum temporibus dicta quibusdam praesentium, magni, cumque aperiam iusto sequi illum molestiae non.</p>
+        <p class="mb-4 text-lg">In excepturi repellendus eum, qui corrupti rerum perferendis harum adipisci voluptate? Nihil, quidem deleniti libero officia dicta vel asperiores velit molestiae blanditiis, dolore voluptatibus excepturi laudantium at veniam illo. Dolor!</p>
+       
+    </div>
+    
+    
+ 
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("logo").style.width = "100%";
+  } else {
+    document.getElementById("logo").style.width = "110%";
+  }
+}
+</script>
+    
+ 
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+</body>
+
+</html>
